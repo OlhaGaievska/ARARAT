@@ -1,0 +1,148 @@
+@media (max-width: 1600px) {
+.margin_width{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*header*/ 
+
+
+
+/*black_section*/
+
+.main_block_black_border{ 
+    border-color: var(--black);
+}
+
+.main_block_black_bottom_text{
+    margin: 3em 3em 0em 3em;
+}
+
+.main_block_black_top_text{
+    margin-top: 0em;
+}
+
+/*yellow_section*/
+
+.main_block_yellow_left_and_right{
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.main_block_yellow_right {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.main_block_yellow_left {
+    width: 100%;
+}
+
+.button_media{
+    margin-top: 1em;    
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*table*/
+table {
+    display: none;
+}
+
+/*under_border_box*/
+
+.main_block_under_border{ 
+    border: 1px solid var(--black);
+}
+
+.main_block_under_border_box{
+    width: 100%;  
+}
+
+input{    
+    width: 435px;
+}
+
+.input_adress{
+    display: none;
+}
+
+.name_surname{
+    flex-direction: column;
+}
+
+.input_name {
+    margin-right: 0em;
+}
+
+.button_white{
+    padding: 1em 10em;
+}
+
+/*photo*/
+
+.body_glass_photo{
+    display: none;
+}
+
+.body_house_photo{
+    width: 555px; 
+    height: 361px; 
+}
+
+.body_glass_and_botle_photo{
+    display: none;
+}
+
+.body_two_glasses_photo{
+    display: none; 
+}
+
+.body_grape_photo{
+    display: none;
+}
+
+.body_barrel_photo{
+    display: none;
+}
+}
+
+@media (max-width: 674px) {
+
+/*header*/
+
+.header_header{
+    width: 674px; 
+    height: 567px;
+    background-size:inherit; 
+}
+
+.header_menu_ul{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.header_menu_li{
+    height: 3em;
+    width: 17em;
+}
+
+li:nth-child(3){border-left: none;}
+
+.header_block_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;    
+}
+
+.button_gap{
+    margin: 0em 0em 1em 0em;
+    padding: 1em 3.5em; 
+}
+
+.header_block {
+    height: 90%;
+}
+}
