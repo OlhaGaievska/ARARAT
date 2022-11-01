@@ -6,7 +6,10 @@
 
 /*header*/ 
 
-
+.header_header{
+    width: 100%;
+    height: calc(500px + 600 * (80vw / 1920));   
+}
 
 /*black_section*/
 
